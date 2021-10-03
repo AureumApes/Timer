@@ -2,7 +2,7 @@
     left: 30%;
     position: fixed;
     font-size: 40px;
-    background-color: gray;
+    background-color: #dcdcdc;
 }
 
 input {
@@ -15,11 +15,24 @@ input {
 button {
     border: solid black 1px;
     cursor: pointer;
-    top: 27%;
     border-radius: 10px;
 }
+
+#startButton {
+    top: 27%;
+}
+
+#stopButton {
+    top: 27%;
+}
+
+#toggle-light {
+    top: 35%;
+    font-size: 20px;
+}
+
 .change-color-on-hover:hover {
-    background-color: #515151;
+    background-color: #c1c0c0;
 }
 
 #countdown {

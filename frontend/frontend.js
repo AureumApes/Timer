@@ -1,3 +1,17 @@
+if(localStorage.getItem("light") === "true"){
+    document.getElementById("theme").href = "light-mode.css"
+}else{
+    document.getElementById("theme").href = "dark-mode.css"
+}
+
+function toggleLightMode(){
+    if(localStorage.getItem("light") === "false"){
+        localStorage.setItem("light", "true")
+    }else{
+        localStorage.setItem("light", "false")
+    }
+    location.reload()
+}
 document.getElementById("stopButton").addEventListener("click", () => {
     location.reload()
 })

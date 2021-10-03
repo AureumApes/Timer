@@ -1,6 +1,27 @@
 * {
-    font-size: 20px;
+    left: 30%;
+    position: fixed;
+    font-size: 40px;
+    background-color: gray;
 }
+
+input {
+    border: solid black 1px;
+    cursor: pointer;
+    top: 20%;
+    border-radius: 10px;
+}
+
+button {
+    border: solid black 1px;
+    cursor: pointer;
+    top: 27%;
+    border-radius: 10px;
+}
+.change-color-on-hover:hover {
+    background-color: #515151;
+}
+
 #countdown {
     font-size: 30px;
 }

@@ -23,14 +23,14 @@ document.getElementById("startButton").addEventListener("click", () => {
             clearInterval(x)
             timerExpiredAudio.play().then()
             let y = setInterval(()=> {
-                if (document.getElementById("title").innerHTML === ""){
+                if (document.getElementById("title").innerHTML === "⠀⠀⠀⠀⠀⠀"){
                     document.getElementById("countdown").innerHTML = `EXPIRED`
                     document.getElementById("title").innerHTML = `EXPIRED`
                 }else{
-                    document.getElementById("countdown").innerHTML = `EXPIRED`
-                    document.getElementById("title").innerHTML = `EXPIRED`
+                    document.getElementById("countdown").innerHTML = `⠀⠀⠀⠀⠀⠀`
+                    document.getElementById("title").innerHTML = `⠀⠀⠀⠀⠀⠀`
                 }
-            })
+            }, 300)
         }
 
         if (seconds <= 0) {

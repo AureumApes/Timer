@@ -4,18 +4,22 @@
     <meta charset="utf-8">
     <title id="title">Timer</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <meta content="Timer by AureumApes" property="og:title" />
-    <meta content="Simple Timer" property="og:description" />
-    <meta content="https://aureumapes.github.io/Timer/" property="og:url" />
-    <meta content="#4d0266" data-react-helmet="true" name="theme-color" />
+    <meta content="Timer by AureumApes" property="og:title"/>
+    <meta content="Simple Timer" property="og:description"/>
+    <meta content="https://aureumapes.github.io/Timer/" property="og:url"/>
+    <meta content="#4d0266" data-react-helmet="true" name="theme-color"/>
 </head>
 
 <body>
-    <p id="countdown"hidden=""></p><br id="break">
-    <input id="time" value="00:00" type="time" /><br>
-    <button id="startButton">Start</button>
-    <button id="stopButton" hidden>Stop</button>
-    <script src="frontend.js"></script>
+<p style="left: 30%;
+    position: fixed;
+    font-size: 40px;
+    background-color: gray;
+    top: 10%;" id="countdown" hidden></p><br id="break">
+<input title="Set Timer" class="change-color-on-hover" id="time" value="00:00" type="time"/><br><br>
+<button title="Start Timer" class="change-color-on-hover" id="startButton">Start</button>
+<button title="StopTimer" class="change-color-on-hover" id="stopButton" hidden>Stop</button>
+<script src="frontend.js"></script>
 </body>
 
 </html>

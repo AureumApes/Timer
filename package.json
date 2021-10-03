@@ -6,6 +6,9 @@
     "email": "aureumapessup@gmail.com",
     "url": "https://github.com/AureumApes"
   },
+  "scripts": {
+    "start": "electron index.js"
+  },
   "dependencies": {
     "electron": "^15.1.0"
   },

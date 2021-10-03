@@ -1,8 +1,5 @@
 const { app, BrowserWindow } = require('electron')
 
-const path = require('path')
-
-
 function createWindow() {
     const win = new BrowserWindow({
         show: false
@@ -10,7 +7,7 @@ function createWindow() {
     win.maximize()
     win.show()
 
-    win.loadFile("frontend/index.html")
+    win.loadFile("frontend/index.html").then()
 }
 
 app.whenReady().then(() => {

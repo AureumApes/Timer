@@ -5,7 +5,7 @@
 ### Windows, MacOS:
 1. Download Code
 2. Run `npm i` to install dependencies
-3. Run `electron index.js` to start the app
+3. Run `npm start` to start the app
 ### Linux
 1. Download [this](https://github.com/AureumApes/Timer/releases/download/1.2.0/Timer.tar.xz)
 2. Unpack it
